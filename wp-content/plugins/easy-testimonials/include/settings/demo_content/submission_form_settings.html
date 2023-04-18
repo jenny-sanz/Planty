@@ -1,0 +1,114 @@
+<div class="admin_demo_content_inner">
+
+<div class="gp_sajak"><div class="gp_sajak_header"><div class="gp_sajak_buttons"><div class="gp_sajak_save_button"><p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="Save Changes" style="display: block;"></p></div></div><h2>Testimonial Collection Form Settings</h2></div><div class="gp_sajak_body"><div class="gp_sajak_sidebar"><ul class="gp_sajak_menu" role="tablist"><li id="gp_sajak_menu_label-notification_settings_page" class="gp_sajak_menu_label extra_li_class sajak-state-active" role="tab" tabindex="0" aria-controls="tab-notification_settings_page" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true">
+								<a href="#tab-notification_settings_page" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1"><span class="fa fa-envelope-o"></span><span class="label_text">Notification Options</span></a>
+							</li><li id="gp_sajak_menu_label-spam_settings_page" class="gp_sajak_menu_label extra_li_class" role="tab" tabindex="-1" aria-controls="tab-spam_settings_page" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false">
+								<a href="#tab-spam_settings_page" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2"><span class="fa fa-shield"></span><span class="label_text">Spam Prevention Options</span></a>
+							</li></ul></div><div class="gp_sajak_main"><div id="tab-notification_settings_page" class="gp_sajak_tab extra_li_class" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false">
+					<div class="gp_sajak_tab_body">		<h3 id="submission-notification-options">Notification Options</h3>
+		<p class="description" style="font-size: 16px">These settings will be used as the defaults for any new forms you create.</p>
+		<h4 class="easy_testimonials_settings_section_heading">Notification Email</h4>
+		
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_submit_notification_address">Success Notification E-Mail Address</label></th>
+				<td><input type="text" name="easy_t_submit_notification_address" id="easy_t_submit_notification_address" value="">
+				<p class="description">If set, we will attempt to send an e-mail notification to this address upon a succesfull submission.  If not set, submission notifications will be sent to the site's Admin E-mail address.  You can include multiple, comma-separated e-mail addresses here.</p>
+				</td>
+			</tr>
+		</tbody></table>
+
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_submit_notification_subject">Notification Email Subject</label></th>
+				<td><input type="text" name="easy_t_submit_notification_subject" id="easy_t_submit_notification_subject" value="New Easy Testimonial Submitted on FreshWP">
+				<p class="description">Tip: add tags like {{email}} to replace with the user-supplied values.<br><strong>Full list:</strong> {{title}}, {{name}}, {{email}}, {{body}}, {{position}}, {{item_reviewed}}, {{rating}}, {{category}}</p>
+				</td>
+			</tr>
+		</tbody></table>
+					
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_submit_notification_body">Notification Email Body</label></th>
+				<td><textarea name="easy_t_submit_notification_body" id="easy_t_submit_notification_body"></textarea>
+				<p class="description">Tip: add tags like {{email}} to replace with the user-supplied values.<br><strong>Full list:</strong> {{title}}, {{name}}, {{email}}, {{body}}, {{position}}, {{item_reviewed}}, {{rating}}, {{category}}</p>
+				</td>
+			</tr>
+		</tbody></table>
+					
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<td><input type="checkbox" name="easy_t_submit_notification_include_testimonial" id="easy_t_submit_notification_include_testimonial" value="1">
+				<label for="easy_t_submit_notification_include_testimonial">Include Testimonial In Notification E-mail</label>
+				<p class="description">If checked, the notification e-mail will include the submitted Testimonial.</p>
+				</td>
+			</tr>
+		</tbody></table>
+		
+		</div>
+				</div><div id="tab-spam_settings_page" class="gp_sajak_tab extra_li_class" aria-labelledby="ui-id-2" role="tabpanel" style="display: none;" aria-hidden="true">
+					<div class="gp_sajak_tab_body">		<h3 id="spam-prevention-captcha">Spam Prevention</h3>
+		<p class="description" style="font-size: 16px">These settings will be applied to all of your forms.</p>					
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<td>
+					<input type="checkbox" name="easy_t_use_captcha" id="easy_t_use_captcha" value="1">
+					<label for="easy_t_use_captcha">Enable Captcha on Submission Form</label>
+					<p class="description">This is useful if you are having SPAM problems. Requires a valid reCAPTCHA API Key and Secret Key to be entered above, or a compatible Captcha plugin to be installed (such as <a href="https://wordpress.org/plugins/really-simple-captcha/" target="_blank">Really Simple Captcha</a>). </p>
+				</td>
+			</tr>
+		</tbody></table>
+		
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_captcha_field_label">"Captcha" Field Label</label></th>
+				<td><input type="text" name="easy_t_captcha_field_label" id="easy_t_captcha_field_label" value="Captcha">
+				<p class="description">This is the label of the Capthca field in the form, which defaults to "Captcha".  Contents of this field will be passed through to the Captcha function inside WordPress.</p>
+				</td>
+			</tr>
+		</tbody></table>
+					
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_captcha_field_description">"Captcha" Field Description</label></th>
+				<td><textarea name="easy_t_captcha_field_description" id="easy_t_captcha_field_description">Please enter the text that you see above here.</textarea>
+				<p class="description">This is the description below the Captcha field in the form.</p>
+				</td>
+			</tr>
+		</tbody></table>
+
+				<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_recaptcha_api_key">reCAPTCHA API Key</label></th>
+				<td>
+					<input type="text" name="easy_t_recaptcha_api_key" id="easy_t_recaptcha_api_key" value="">
+					<p class="description">To use Google's reCAPTCHA service, please enter your <strong>reCAPTCHA API Key</strong> here. (<a href="https://www.google.com/recaptcha/admin">Get Yours Here</a>)</p>
+				</td>
+			</tr>
+		</tbody></table>
+
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_recaptcha_secret_key">reCAPTCHA Secret Key</label></th>
+				<td>
+					<input type="text" name="easy_t_recaptcha_secret_key" id="easy_t_recaptcha_secret_key" value="">
+					<p class="description">To use Google's reCAPTCHA service, please enter your <strong>reCAPTCHA Secret Key</strong> here. (<a href="https://www.google.com/recaptcha/admin">Get Yours Here</a>)</p>
+				</td>
+			</tr>
+		</tbody></table>
+
+		<table class="form-table">
+			<tbody><tr valign="top">
+				<th scope="row"><label for="easy_t_recaptcha_lang">reCAPTCHA Language</label></th>
+				<td>
+					<select name="easy_t_recaptcha_lang" id="easy_t_recaptcha_lang">
+						<option value="">(Not Specified)</option>
+						<option value="ar">Arabic</option><option value="bn">Bengali</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="zh-CN">Chinese (Simplified)</option><option value="zh-TW">Chinese (Traditional)</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="nl">Dutch</option><option value="en-GB">English (UK)</option><option value="en">English (US)</option><option value="et">Estonian</option><option value="fil">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="fr-CA">French (Canadian)</option><option value="de">German</option><option value="gu">Gujarati</option><option value="de-AT">German (Austria)</option><option value="de-CH">German (Switzerland)</option><option value="el">Greek</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hu">Hungarain</option><option value="id">Indonesian</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="kn">Kannada</option><option value="ko">Korean</option><option value="lv">Latvian</option><option value="lt">Lithuanian</option><option value="ms">Malay</option><option value="ml">Malayalam</option><option value="mr">Marathi</option><option value="no">Norwegian</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="pt-BR">Portuguese (Brazil)</option><option value="pt-PT">Portuguese (Portugal)</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sr">Serbian</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option value="es">Spanish</option><option value="es-419">Spanish (Latin America)</option><option value="sv">Swedish</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="th">Thai</option><option value="tr">Turkish</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="vi">Vietnamese</option>					</select>						
+				</td>
+			</tr>
+		</tbody></table>
+		</div>
+				</div></div></div><!-- end .gp_sajak_body --><div class="gp_sajak_footer"><div class="gp_sajak_buttons"><div class="gp_sajak_save_button"><p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="Save Changes" style="display: block;"></p></div></div></div></div>
+				
+</div>
+<!-- end .admin_demo_content_inner -->

@@ -1,0 +1,56 @@
+.gp_aloha {
+	max-width: 95%;
+}
+
+.gp_aloha .aloha_intro {
+	font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.gp_aloha .continue_to_settings {
+	border-top: 1px solid #eee;
+    font-size: 16px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.gp_aloha .continue_to_settings p {
+	margin-bottom: 0;
+}
+
+
+.gp_aloha .plugin_activated {
+	color: green;
+	font-weight: bold;
+}
+
+.gp_aloha .aloha_header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.gp_aloha .aloha_body{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px 30px 40px;
+}
+
+.gp_aloha .three_col {
+}
+
+.gp_aloha .three_col .col {
+	display: inline-block;
+	width: 29%;
+	margin-right: 6%;
+	min-width: 270px;
+	vertical-align: top;
+}
+
+.gp_aloha .three_col .col:last-child {
+	margin-right: 0;
+}
+
+.gp_aloha .col > ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

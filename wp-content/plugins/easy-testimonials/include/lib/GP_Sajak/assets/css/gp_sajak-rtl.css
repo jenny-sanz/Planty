@@ -1,0 +1,34 @@
+@import url('gp_sajak.css'); /* include base sajak file */
+
+/* RTL overrides */
+.gp_sajak_sidebar {
+	left: auto;
+	right: 0;
+}
+
+.gp_sajak_main {
+    margin-left: 0;
+    margin-right: 200px;
+}
+
+.gp_sajak_buttons {
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.gp_sajak_sidebar ul li.sajak-state-active {
+    border-left: 0 none;
+    border-right: 5px solid green;
+}
+
+.gp_sajak_sidebar ul li .fa {
+    float: right;
+	padding-left: 4px;
+	padding-right: 0px;
+}
+
+.gp_sajak_tab_body .easy_testimonials_registered {
+    border-left: 0 none;
+    border-right: 4px solid green;
+}

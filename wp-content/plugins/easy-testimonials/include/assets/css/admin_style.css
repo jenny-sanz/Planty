@@ -1,0 +1,1109 @@
+.easy_testimonials_admin_wrap .easy_testimonials_settings_section_heading {
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 1.3em;
+	color: green;
+	margin-bottom: 10px;	
+}
+
+.easy_testimonials_admin_wrap .form-table {
+    clear: none;
+    table-layout: fixed;
+}
+
+.easy_testimonials_admin_wrap h3 {
+    font-size: 24px;
+    line-height: 1em;
+    margin: 0 0 10px;
+    padding-bottom: 0;
+}
+
+.easy_testimonials_admin_wrap .stars {
+    margin-bottom: 10px;
+    white-space: nowrap
+}
+.easy_testimonials_admin_wrap .stars  .dashicons-star-filled {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;	
+}
+
+.easy_testimonials_admin_wrap .easy-t-radio-button {
+    float: left;
+    margin: 0 20px 10px 0;
+    max-width: 367px;
+    width: 30%
+}
+
+.easy_testimonials_admin_wrap .form-table.easy_t_options h4 {
+    clear: both;
+    margin: 0 0 .5em;
+    padding: 1.33em 0 0;
+    text-decoration: underline
+}
+
+.easy_testimonials_admin_wrap .easy-t-radio-button em {
+    margin-left: 20px
+}
+
+.form-table .ezt_theme_description {
+    font-size: 12px;
+    font-style: italic;
+    padding: 10px
+}
+
+.easy_testimonials_admin_wrap {
+    position: relative
+}
+
+.sidebar_hello_t.hello_t_banner {
+    background: #fff;
+    padding-right: 40px;
+    margin-top: 30px
+}
+
+.easy_testimonials_not_registered,
+.easy_testimonials_registered {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    padding: 10px 15px;
+    font-weight: 700;
+    background-color: #fff
+}
+
+.sidebar_hello_t.hello_t_banner h3 {
+	font-size: 22px;
+}
+
+.sidebar_hello_t.hello_t_banner .smallBlueButton {
+    font-size: 14px;
+    text-align: center;
+	margin-top: 10px;
+}
+.sidebar_hello_t.hello_t_banner h3 {
+    line-height: 1.25;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.hello_t_banner p {
+    font-size: 14px
+}
+
+.easy_testimonials_registered {
+    border-left: 4px solid green;
+    color: green
+}
+
+.easy_testimonials_not_registered {
+    border-color: skyblue;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 2px 2px 4px;
+    color: #767676;
+}
+
+.gp_upload_file_wrapper p:first-child {
+    font-weight: 700;
+    vertical-align: middle;
+    margin-bottom: 3px
+}
+
+.gp_upload_file_wrapper #upload {
+    background-color: #fff;
+    font-weight: 400;
+    display: block;
+    padding: 4px;
+    margin-top: 6px;
+    margin-left: 2px;
+    border: 1px solid #d3d3d3
+}
+
+.gp_upload_file_wrapper p.submit {
+    margin-top: 3px
+}
+
+a.approve_testimonial,
+a.trash_testimonial {
+    cursor: pointer;
+    white-space: nowrap
+}
+
+#easy_t_recent_submissions tr.updated {
+    background-color: #ffffe0
+}
+
+.easy_testimonials_admin_wrap input[type="text"], 
+.easy_testimonials_admin_wrap input[type="email"], 
+.easy_testimonials_admin_wrap textarea {
+    max-width: 600px;
+    width: 95%;
+}
+
+.easy_t_preview {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 25px 0;
+    padding: 50px
+}
+
+.easy_t_preview,
+.easy_t_preview * {
+	box-sizing: border-box;
+}
+
+.easy_t_preview img {
+	max-width: 100%;
+}
+
+.easy_t_preview .easy_t_single_testimonial {
+    margin: 10px auto;
+    max-width: 550px !important;
+}
+.easy_t_preview .easy-t-cycle-controls {
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+}
+
+.easy_t_options fieldset {
+    padding: 20px!important
+}
+
+/*gp admin quicknav*/
+.gp-admin-quicknav-ul {
+    list-style-type: disc;
+    padding: 0 0 0 18px;
+}
+
+.gp-admin-quicknav-h3 {
+    padding-top: 40px;
+}
+
+
+/* new sc generator */
+#easy-t-shortcode-generator #insert-media-button {
+    display: none;
+}
+
+#easy-t-shortcode-generator .mce-toolbar-grp {
+    display: none;
+}
+
+
+/* New Signup Form */
+@media only screen and (min-width: 1074px) {
+	.easy_testimonials_admin_wrap.not-pro  {
+		min-height: 1440px;
+		padding-right: 310px;	
+	}
+}
+
+#signup_wrapper {
+    bottom: -65px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    width: 300px;
+}
+
+#signup_wrapper .customer_testimonial {
+	border-top: 1px solid #ccc;
+	color: gray;
+    font-size: 15px;
+    font-style: italic;
+	line-height: 1.5;
+    padding-top: 20px;	
+}
+
+#signup_wrapper .customer_testimonial_title {
+    font-size: 15px;
+}
+
+#signup_wrapper .customer_testimonial .author {
+	display: block;
+    font-size: 14px;
+    font-style: normal;
+    margin-right: 18px;
+    margin-top: 13px;
+    text-align: right;
+}
+
+.easy_testimonials_admin_wrap .easy_testimonials_admin_wrap #signup_wrapper .respect
+{
+	color: gray;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 5px;
+}
+				
+.easy_testimonials_admin_wrap .green_bg {				
+	background: #009b21; /* Old browsers */
+	background: -moz-linear-gradient(top,  #009b21 0%, #007719 50%, #009b21 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009b21), color-stop(50%,#007719), color-stop(100%,#009b21)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #009b21 0%,#007719 50%,#009b21 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #009b21 0%,#007719 50%,#009b21 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #009b21 0%,#007719 50%,#009b21 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #009b21 0%,#007719 50%,#009b21 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009b21', endColorstr='#009b21',GradientType=0 ); /* IE6-9 */
+}
+.easy_testimonials_admin_wrap .yellow_orange_bg {	
+	background: rgba(241,231,103,1);
+	background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(252,220,75,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(252,220,75,1)));
+	background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(252,220,75,1) 100%);
+	background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(252,220,75,1) 100%);
+	background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(252,220,75,1) 100%);
+	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(252,220,75,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#fcdc4b', GradientType=0 );
+}
+.easy_testimonials_admin_wrap .purple {	
+	background: #800080;
+}
+.easy_testimonials_admin_wrap .topper {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: lightyellow;
+    margin-top: 0;
+    padding: 1px 20px 10px;
+}
+.pitch {
+    font-family: arial;
+	margin-top: 0;
+}
+.topper.purple span {
+    display: block;
+    font-size: 17px;
+}
+.easy_testimonials_admin_wrap .topper h3 {
+    color: gold;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold !important;
+    line-height: 1.5;
+    margin: 10px 0 0;
+}
+.easy_testimonials_admin_wrap .topper .upgrade_link {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: block;
+	margin: 15px 0 10px;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .save_now {
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .gp_logo {
+	bottom: -8px;
+	background: purple none repeat scroll 0% 0%; 
+	left: -20px; 
+	margin: 1px 20px; 
+	padding: 20px; 
+	position: absolute; 
+	right: -20px; 
+	text-align: center; 
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+.easy_testimonials_admin_wrap #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+.easy_testimonials_admin_wrap #mc_embed_signup input {-webkit-appearance:none;}
+.easy_testimonials_admin_wrap #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+.easy_testimonials_admin_wrap #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+.easy_testimonials_admin_wrap #mc_embed_signup input:focus {border-color:#333;}
+.easy_testimonials_admin_wrap #mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+.easy_testimonials_admin_wrap #mc_embed_signup .button:hover {background-color:#777;}
+.easy_testimonials_admin_wrap #mc_embed_signup .small-meta {font-size: 11px;}
+.easy_testimonials_admin_wrap #mc_embed_signup .nowrap {white-space:nowrap;}     
+.easy_testimonials_admin_wrap #mc_embed_signup .clear {clear:none; display:inline;}
+
+.easy_testimonials_admin_wrap #signup_wrapper #mc_embed_signup {
+	padding-bottom: 90px;
+	position: relative;
+	overflow: hidden;
+	border-bottom-left-radius: 5px;	
+	border-bottom-right-radius: 5px;	
+}
+.easy_testimonials_admin_wrap #mc_embed_signup h3 { 
+	color: purple;
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup p.pitch {  
+	color: #454545;
+    margin-bottom: 20px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .secure {
+	text-align: center;
+	font-size: 8px;
+	line-height: 16px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	text-transform: uppercase;
+	color: darkgray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .secure img {
+	display: inline-block;
+	margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+
+.easy_testimonials_admin_wrap #mc_embed_signup .explain {
+	color: #808080;
+	width: auto;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup label {
+	color: purple;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup input.name,
+.easy_testimonials_admin_wrap #mc_embed_signup input.email {
+	display:block;
+	padding:8px 0;
+	margin:0 4% 10px 0;
+	text-indent:5px;
+	width:100%;
+	min-width:130px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup #mce-NAME {
+	margin-bottom: 20px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .smallBlueButton {
+	margin: 10px 0;
+    width: 100%;
+}
+
+
+.easy_testimonials_admin_wrap #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+.easy_testimonials_admin_wrap #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+.easy_testimonials_admin_wrap #mc_embed_signup #mce-error-response {display:none;}
+.easy_testimonials_admin_wrap #mc_embed_signup #mce-success-response {color:#529214; display:none;}
+.easy_testimonials_admin_wrap #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}		
+.easy_testimonials_admin_wrap #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+.easy_testimonials_admin_wrap #mc_embed_signup{    
+			background-color: white;
+			border: 1px solid #DCDCDC;
+			clear: left;
+			color: #008000;
+			font: 14px Helvetica,Arial,sans-serif;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			max-width: 800px;
+			padding: 15px 12px 5px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup form{padding: 10px}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .special-offer {
+	color: #808080;
+	margin: 0;
+	padding: 0 0 3px;
+	text-transform: uppercase;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .button {
+  background: #5dd934;
+  background-image: -webkit-linear-gradient(top, #5dd934, #549e18);
+  background-image: -moz-linear-gradient(top, #5dd934, #549e18);
+  background-image: -ms-linear-gradient(top, #5dd934, #549e18);
+  background-image: -o-linear-gradient(top, #5dd934, #549e18);
+  background-image: linear-gradient(to bottom, #5dd934, #549e18);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  line-height: 1.5;
+  height: auto;
+  margin-top: 7px;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .button:hover {
+  background: #65e831;
+  background-image: -webkit-linear-gradient(top, #65e831, #5dd934);
+  background-image: -moz-linear-gradient(top, #65e831, #5dd934);
+  background-image: -ms-linear-gradient(top, #65e831, #5dd934);
+  background-image: -o-linear-gradient(top, #65e831, #5dd934);
+  background-image: linear-gradient(to bottom, #65e831, #5dd934);
+  text-decoration: none;
+}
+.easy_testimonials_admin_wrap #signup_wrapper {
+	max-width: 800px;
+}
+@media only screen and (max-width: 1075px) {
+	.easy_testimonials_admin_wrap #signup_wrapper {
+		position: static;
+		margin: 30px 0 0 -10px;
+		width: 300px;
+	}
+}
+.easy_testimonials_admin_wrap #signup_wrapper .u_to_p
+{
+	font-size: 10px;
+	margin: 0;
+	padding: 2px 0 0 3px;
+	text-align: center;	
+}
+
+.easy_testimonials_admin_wrap .smallBlueButton {
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%) repeat scroll 0 0 #79bbff;
+    border: 1px solid #337bc4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px -2px #111, 0 2px 5px 0 rgba(255, 255, 255, 0.3) inset;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #528ecc;
+}
+.easy_testimonials_admin_wrap .smallBlueButton:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%) repeat scroll 0 0 #378de5;
+}
+.easy_testimonials_admin_wrap .smallBlueButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#mc-show-coupon-codes .upgrade_link{
+    padding: 10px 0 20px !important;
+	text-align: center;
+}
+
+#mc-show-coupon-codes .upgrade_link a {
+	color: white;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+#mc-show-coupon-codes .upgrade_link .package a {
+	font-size: 22px;
+}
+
+#mc-show-coupon-codes .upgrade_link .desc a {
+	color: wheat;
+	font-size: 18px;	
+}
+
+#mc-show-coupon-codes .thx {
+	padding-bottom: 10px;
+}
+
+#mc-show-coupon-codes .package a {
+    display: inline-block;
+    font-weight: bold;
+	font-size: 18px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+
+#mc-show-coupon-codes .desc a {
+	color: gray;
+    text-decoration: none;
+}
+
+#mc-show-coupon-codes.modern {
+    padding: 20px 10px 10px;
+}
+#mc-show-coupon-codes.modern h3 {
+    border-bottom: 0 none;
+}
+#mc-show-coupon-codes.modern .thx {
+    color: gray;
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .features {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px 20px 10px;
+}
+.easy_testimonials_admin_wrap #mc_embed_signup .features strong {
+	display: block;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .features ul {
+	padding-left: 15px;
+}
+
+.easy_testimonials_admin_wrap #mc_embed_signup .features ul li {
+	color: gray;
+	list-style-type: disc;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	margin-left: 15px;
+	max-width: 85%;
+}		
+.easy_testimonials_admin_wrap fieldset {
+	border: 1px solid #ccc ;
+	display: block;
+	margin: 20px 0 ;
+	padding: 0 20px ;
+}
+.easy_testimonials_admin_wrap fieldset legend{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* New Admin Styles */
+.easy_testimonials_admin_wrap .form-table tr {
+    display: block;
+}
+
+.easy_testimonials_admin_wrap .form-table th {
+	display: block;
+    padding: 20px 10px 0 0;
+    width: 100%;
+}
+
+.easy_testimonials_admin_wrap .form-table td {
+    display: block;
+	padding: 15px 0;
+}
+
+.easy_testimonials_admin_wrap #message {
+    margin: 20px 0;
+}
+
+#easy_t_registered_key {
+    max-width: 600px;
+    width: 100%;
+}
+
+.easy_testimonials_admin_wrap .import_response {
+    height: auto;
+}
+.easy_testimonials_admin_wrap h4 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.easy_t_support_button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 0 0;
+    padding: 10px;
+    text-decoration: none;
+}
+/* GP Support Form CSS */
+.gp_support_form_wrapper label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 2px;
+}
+.gp_support_form_wrapper .form_field {
+    margin: 10px 0;
+}
+.gp_support_form_wrapper {
+    margin: 20px 0;
+}
+.help_box {
+    margin: 25px 0;
+}
+.help_box > p {
+    margin: 0 0 1em;
+}
+.easy_testimonials_admin_wrap .button {
+    white-space: normal;
+}
+.easy_testimonials_admin_wrap .label_text {
+    display: block;
+    margin-left: 26px;
+}
+div.gp_updated {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid green;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px 0px 10px 0;
+    padding: 1px 12px;
+}
+div.gp_error {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid red;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px 0px 10px 0;
+    padding: 1px 12px;
+}
+
+#wpbody-content > .gp_updated,
+#wpbody-content > .gp_error {
+    margin-right: 10px;
+}
+
+.ajax_response_message {
+    color: forestgreen;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Sajak Changes */
+.gp_sajak td > label {
+    font-weight: 600;
+}
+
+/* Upgrade Page */
+.easy_testimonials_admin_wrap .gp_upgrade {
+	max-width: 95%;
+}
+
+.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body {
+    background-color: white;
+    border: 1px solid lightgray;
+	padding: 0;
+	max-width: 960px;
+}
+
+.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .customer_testimonial {
+	width: 480px;
+	box-sizing: border-box;
+	margin-left: 0px;
+	padding: 50px 40px 20px;
+}
+
+.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .header_wrapper {
+	box-shadow: 0px 5px 10px lightgray;
+	height: auto;
+	margin-bottom: 40px;
+	padding-bottom: 60px;
+}
+.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .video_wrapper iframe {
+	max-width: 100%;	
+}
+
+@media only screen and (max-width: 600px) {
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .customer_testimonial {
+		padding: 20px;
+		max-width: 100%;
+		width: auto;
+	}
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .upgrade_left_col {
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width: 1160px) {
+
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body {
+		max-width: 480px;
+		min-width: 300px;
+	}
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .bottom_cols > div {
+		border: 0 none;
+		display: block;
+		width: 100%;
+	}
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .bottom_cols > .how_to_upgrade {
+		border-bottom: 1px solid lightgray;
+	}
+}
+
+@media only screen and (min-width: 1160px) {
+
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .header_wrapper {
+		height: 270px;
+		padding-bottom: 0;
+	}
+
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .video_wrapper {
+		float: left;
+	}
+
+	.easy_testimonials_admin_wrap .gp_upgrade .gp_upgrade_body .customer_testimonial {
+		margin-left: 480px;
+	}
+
+}
+
+.easy_testimonials_admin_wrap #signup_wrapper {
+	position: absolute;
+	margin-right: 320px;
+	left: 980px;
+	right: auto;
+	top: 58px;
+	width: 344px;
+}
+
+.upgrade_left_col ul > li::before {
+	background-image: url('../img/check-mark.png');
+	content: " ";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	z-index: 100;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-size: 14px 14px;
+	background-repeat: no-repeat;
+}
+.upgrade_left_col ul > li {
+	position: relative;
+	padding-left: 24px;			
+	margin-left: 19px;
+	font-size: 14px;
+	line-height: 1.5;
+	max-width: 450px;
+}
+
+
+.easy_testimonials_admin_wrap #signup_wrapper #mc_embed_signup {
+	padding-bottom: 15px;
+}	
+.sidebar_hello_t.hello_t_banner {
+	padding: 1px 20px;
+	border: 1px solid #DCDCDC;
+}	
+.sidebar_hello_t .whiteButton {
+	width: 100%;
+	box-sizing: border-box;
+}		
+.easy_testimonials_admin_wrap .upgrade_left_col {
+	margin: 60px auto 20px;
+	max-width: 600px;
+}
+
+.easy_testimonials_admin_wrap .upgrade_left_col {
+	padding: 0 60px 0;
+	max-width: 600px;
+}
+
+.easy_testimonials_admin_wrap .upgrade_left_col h3 {
+	line-height: 1.25;
+	margin-bottom: 20px;
+}
+.easy_testimonials_admin_wrap .upgrade_left_col .all_features_link {
+	font-size: 14px;
+}
+.easy_testimonials_admin_wrap .bottom_cols {
+	border-top: 1px solid lightgray;
+	margin-top: 53px;
+}
+.easy_testimonials_admin_wrap .bottom_cols > div {
+	width: 49%;
+	display: inline-block;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+.easy_testimonials_admin_wrap .how_to_upgrade {
+	border-right: 1px solid lightgray;
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+	.easy_testimonials_admin_wrap .gp_upgrade #signup_wrapper {
+		border-radius: 5px;
+		margin-top: 40px;
+	}
+	
+	.easy_testimonials_admin_wrap .gp_upgrade #signup_wrapper #mc_embed_signup {
+		min-height: 400px;
+		max-width: none;
+		margin-right: 0;
+		width:470px;
+	}
+	.easy_testimonials_admin_wrap .gp_upgrade #signup_wrapper .hello_t_banner {
+		min-height: 400px;
+		border-left: 0 none;
+		max-width: none;
+		width: 490px;
+	}
+		
+}
+	
+@media only screen and (max-width: 1530px) {
+
+	.easy_testimonials_admin_wrap #signup_wrapper {
+		left: initial;
+		position: relative;
+		margin-left: 0px;
+		margin-right: 0px;
+		right: auto;
+		top: 0;
+		margin-top: 20px;
+		padding-left: 0;
+		max-width: none;
+		min-width: 300px;
+		width: 100%;
+	}
+
+	.easy_testimonials_admin_wrap #signup_wrapper #mc_embed_signup {
+		box-sizing: border-box;
+		float: left;
+		width: 100%;
+		max-width: 480px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+
+	.easy_testimonials_admin_wrap #signup_wrapper .hello_t_banner {
+		box-sizing: border-box;
+		float: left;
+		margin-top: 0;
+		max-width: 480px;
+		width: 100%;
+	}
+
+}
+
+.easy_testimonials_admin_wrap .upgrade_button {
+	padding: 10px 0 0 14px;
+}
+
+#adminmenu .easy_testimonials_free_admin_menu ul.wp-submenu > li:last-child > a {
+	color: #ffe300;
+	font-weight: bold;
+}
+
+#adminmenu .easy_testimonials_free_admin_menu ul.wp-submenu > li:last-child > a.current {
+	color: inherit;
+}
+
+.easy_testimonials_admin_wrap .upgrade_button a {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52));
+	background:-moz-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-webkit-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-o-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:-ms-linear-gradient(top, #b8e356 5%, #a5cc52 100%);
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52',GradientType=0);
+	background-color:#b8e356;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.easy_testimonials_admin_wrap .upgrade_button a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356));
+	background:-moz-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-webkit-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-o-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:-ms-linear-gradient(top, #a5cc52 5%, #b8e356 100%);
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356',GradientType=0);
+	background-color:#a5cc52;
+}
+.easy_testimonials_admin_wrap .upgrade_button a:active {
+	position:relative;
+	top:1px;
+}
+
+.easy_testimonials_admin_wrap .whiteButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#969494;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	width: 100%;
+	box-sizing: border-box;
+}
+.easy_testimonials_admin_wrap .whiteButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.easy_testimonials_admin_wrap .whiteButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Demo Content */
+.admin_demo_content_wrapper .blur,
+.admin_demo_content_wrapper .admin_demo_content_inner {
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-ms-filter: blur(3px);
+	-o-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.easy_testimonials_demo_modal {
+	background-color: white;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+	box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.15);
+	min-height: 450px;
+	left: 50%;
+	font-size: 16px;
+	position: absolute;
+	top: 120px;
+	text-align: center;
+	margin: 0 0 0 -400px;
+	width: 800px;
+}
+
+.easy_testimonials_demo_modal * {
+	box-sizing: border-box;
+}
+
+.easy_testimonials_demo_modal_top {
+	padding: 40px;
+	
+}
+
+.easy_testimonials_demo_modal_bottom {
+	background-color: #f5f5f5;
+	padding: 35px 40px 20px;
+}
+
+.easy_testimonials_demo_modal_bottom .easy_testimonials_btn {
+	background-color: #00c9a7;
+	border-color: #00c9a7;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 16px 28px;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	box-shadow: none;
+	outline: 0;
+}
+.easy_testimonials_demo_modal_bottom .easy_testimonials_btn:hover {
+	background-color: #00967d;;
+	border-color: #008972;
+	color: #fff;
+	box-shadow: 0px 2px 12px lightgray;
+	position: relative;
+	top: -1px;
+}
+
+.easy_testimonials_demo_modal .easy_testimonials_after_button_text {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.easy_testimonials_demo_modal h2 {
+	margin-top: 0;
+	color: purple;
+	font-size: 1.65em;
+}
+
+.easy_testimonials_demo_modal p {
+	font-size: 16px;
+	color: #656565;
+	max-width: 650px;
+	margin: 0 auto 10px;
+}
+
+.easy_testimonials_demo_modal .subhead {
+	color: dodgerblue;
+}
+
+.easy_testimonials_demo_modal .easy_testimonials_feature_list_heading {
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+.easy_testimonials_feature_list {
+	box-sizing: border-box;
+	list-style-type: none;
+	float: left;
+	margin: 20px 0 0;
+	padding: 0 0 0 62px;
+	text-align: left;
+	width: 50%;
+}
+
+.easy_testimonials_feature_list_left {
+}
+
+.easy_testimonials_feature_list_right {
+}
+
+.easy_testimonials_feature_list li {
+	color: #656565;
+	font-size: 16px;
+	padding: 6px 0;
+    text-align: left;
+    width: 325px;
+}
+
+.easy_testimonials_feature_list li > div {
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.easy_testimonials_checkbox {
+	display: inline-block;	
+	height: 16px;
+	width: 16px;
+}
+.easy_testimonials_checkbox {
+	 color: green;
+	 fill: green;
+}
