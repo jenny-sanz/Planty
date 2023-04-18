@@ -10,3 +10,259 @@ Version: 3.5.7.1681230817
 Updated: 2023-04-11 18:33:37
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.nv-title-tagline-wrap {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+.site-header .header--row-inner {
+    height: 80px;
+}
+
+.builder-item {
+    margin: 4px 0;
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px ;
+    padding-left: 15px;
+}
+
+/* button nav */
+.component-wrap,
+.component-wrap a {
+    width: 236px;
+    height: 80px;
+    font-weight: 700;
+
+}
+
+.component-wrap a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* alignement lien barre laterale */
+.nav-ul li > .wrap {
+    padding: 0 !important;
+}
+
+/* footer */
+.mon-footer {
+    height: 60px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.mon-footer p {
+    margin: 0;
+}
+
+.mon-footer a {
+    color: #000000;
+}
+
+/* membres d'equipe */
+.team-member img {
+    border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+}
+
+
+/**************** Formulaire quantités ***************/
+
+.wpcf7-spinner {
+    display: none ;
+}
+
+.container-quantity {
+    display: flex;
+    height: 80px;
+}
+
+/* input */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0 ;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+    appearance: none;
+    /* Firefox */
+}
+
+.quantity-input {
+    height: 90px !important;
+    margin: 0 !important;
+    border-radius: 8px 0 0 8px !important;
+    -webkit-border-radius: 8px 0 0 8px !important;
+    -moz-border-radius: 8px 0 0 8px !important;
+    -ms-border-radius: 8px 0 0 8px !important;
+    -o-border-radius: 8px 0 0 8px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+}
+
+/* boutons */
+.quantity-buttons {
+    margin-right: 20px ;
+}
+
+.button-plus,
+.button-minus {
+    color: #ffffff;
+    border: none;
+    background-color: #DC9F96 !important;
+    margin: 0 !important;
+}
+
+.button-plus:hover,
+.button-minus:hover {
+    background-color: #C02E44 !important;
+}
+
+.button-plus {
+    display: block;
+    height: 45px !important;
+    width: 45px !important;
+    padding: 0 !important;
+    border-radius: 0 8px 0 0 !important;
+    -webkit-border-radius: 0 8px 0 0 !important;
+    -moz-border-radius: 0 8px 0 0 !important;
+    -ms-border-radius: 0 8px 0 0 !important;
+    -o-border-radius: 0 8px 0 0 !important;
+    border-bottom: 1px solid #fff !important;
+
+}
+
+.button-minus {
+    display: block!important;
+    height: 45px !important;
+    width: 45px !important;
+    padding: 0!important;
+    border-radius: 0 0 8px 0 !important;
+    -webkit-border-radius: 0 0 8px 0 !important;
+    -moz-border-radius: 0 0 8px 0 !important;
+    -ms-border-radius: 0 0 8px 0 !important;
+    -o-border-radius: 0 0 8px 0 !important;
+ 
+}
+
+/*********** Formulaire de commande *********/
+.container-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-inline: 25px;
+}
+
+.title-form {
+    color: #fff;
+    text-transform: none;
+    flex-basis: calc(50% - 1rem);
+}
+
+.info {
+    padding-right: 30px;
+    border-right: 1px solid #fff;
+    width: 52%;
+}
+
+.livraison {
+    padding-left: 30px;
+    width: 48%;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+/* grands ecrans */
+@media only screen and (min-width: 1200px) {}
+
+/*  ordi de bureau */
+@media (min-width: 1024px) and (max-width: 1199px) {}
+
+/* TABLETTE ET ORDI PORTABLE */
+@media all and (min-width: 768px) and (max-width:1199px) {
+    
+    .container-rencontre-1 {
+        border-radius: 0 0 20% 20%;
+        -webkit-border-radius: 0 0 20% 20%;
+        -moz-border-radius: 0 0 20% 20%;
+        -ms-border-radius: 0 0 20% 20%;
+        -o-border-radius: 0 0 20% 20%;
+    }
+
+    #img-contact {
+        width: 125px;
+        height: 125px;
+    }
+
+    /* form commande */
+
+    .info {
+        padding-right: 0;
+        border-right: none;
+        width: 100%;
+    }
+
+    .livraison {
+        padding-left: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    #img-contact {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-rencontre-1 {
+        border-radius: 0 0 10% 10%;
+        -webkit-border-radius: 0 0 10% 10%;
+        -moz-border-radius: 0 0 10% 10%;
+        -ms-border-radius: 0 0 10% 10%;
+        -o-border-radius: 0 0 10% 10%;
+    }
+
+    /*********** Formulaire de commande *********/
+    .info {
+        padding-right: 0;
+        border-right: none;
+        width: 100%;
+    }
+
+    .livraison {
+        padding-left: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+}
+
