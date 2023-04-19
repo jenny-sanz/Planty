@@ -75,6 +75,7 @@ Updated: 2023-04-11 18:33:37
     color: #000000;
 }
 
+
 /* membres d'equipe */
 .team-member img {
     border-radius: 50% 50%;
@@ -88,14 +89,27 @@ Updated: 2023-04-11 18:33:37
 /**************** Formulaire quantités ***************/
 
 .wpcf7-spinner {
-    display: none ;
+    display: none !important ;
 }
 
 .container-quantity {
     display: flex;
     height: 80px;
+    margin-left: 12px!important;
 }
+.container-quantity input[type="number"] {
+    display: block!important;
+    width: 65px !important;
+    height: 80px!important;
+    border-radius: 8px 0 0 8px !important;
+    -webkit-border-radius: 8px 0 0 8px !important;
+    -moz-border-radius: 8px 0 0 8px !important;
+    -ms-border-radius: 8px 0 0 8px !important;
+    -o-border-radius: 8px 0 0 8px !important;
+    font-size: 30px !important;
+    text-align: center !important;
 
+}
 /* input */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -109,63 +123,33 @@ input[type=number] {
     appearance: none;
     /* Firefox */
 }
-
-.quantity-input {
-    height: 90px !important;
-    margin: 0 !important;
-    border-radius: 8px 0 0 8px !important;
-    -webkit-border-radius: 8px 0 0 8px !important;
-    -moz-border-radius: 8px 0 0 8px !important;
-    -ms-border-radius: 8px 0 0 8px !important;
-    -o-border-radius: 8px 0 0 8px !important;
-    font-size: 30px !important;
-    text-align: center !important;
-}
-
-/* boutons */
+/* bouton */
 .quantity-buttons {
-    margin-right: 20px ;
-}
-
+    margin-top:4px!important;}
 .button-plus,
 .button-minus {
-    color: #ffffff;
-    border: none;
-    background-color: #DC9F96 !important;
     margin: 0 !important;
-}
-
-.button-plus:hover,
-.button-minus:hover {
-    background-color: #C02E44 !important;
-}
-
-.button-plus {
     display: block;
-    height: 45px !important;
+    height: 40px !important;
     width: 45px !important;
     padding: 0 !important;
+}
+.button-plus{
     border-radius: 0 8px 0 0 !important;
     -webkit-border-radius: 0 8px 0 0 !important;
     -moz-border-radius: 0 8px 0 0 !important;
     -ms-border-radius: 0 8px 0 0 !important;
     -o-border-radius: 0 8px 0 0 !important;
     border-bottom: 1px solid #fff !important;
-
 }
-
-.button-minus {
-    display: block!important;
-    height: 45px !important;
-    width: 45px !important;
-    padding: 0!important;
+.button-minus{
     border-radius: 0 0 8px 0 !important;
     -webkit-border-radius: 0 0 8px 0 !important;
     -moz-border-radius: 0 0 8px 0 !important;
     -ms-border-radius: 0 0 8px 0 !important;
     -o-border-radius: 0 0 8px 0 !important;
- 
 }
+
 
 /*********** Formulaire de commande *********/
 .container-form {
@@ -237,6 +221,7 @@ input[type=number] {
 
 /* MOBILE */
 @media (max-width: 767px) {
+
 
     #img-contact {
         width: 100px;
