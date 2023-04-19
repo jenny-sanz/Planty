@@ -33,7 +33,7 @@ Updated: 2023-04-11 18:33:37
     margin: 4px 0;
     position: relative;
     min-height: 1px;
-    padding-right: 0px ;
+    padding-right: 0px;
     padding-left: 15px;
 }
 
@@ -52,14 +52,15 @@ Updated: 2023-04-11 18:33:37
     justify-content: center;
 
 }
+
 /* alignement lien barre laterale */
-.nav-ul li > .wrap {
+.nav-ul li>.wrap {
     padding: 0 !important;
 }
 
 /* footer */
 .mon-footer {
-    height: 60px ;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -89,18 +90,19 @@ Updated: 2023-04-11 18:33:37
 /**************** Formulaire quantités ***************/
 
 .wpcf7-spinner {
-    display: none !important ;
+    display: none !important;
 }
 
 .container-quantity {
     display: flex;
     height: 80px;
-    margin-left: 12px!important;
+    margin-left: 12px !important;
 }
+
 .container-quantity input[type="number"] {
-    display: block!important;
+    display: block !important;
     width: 65px !important;
-    height: 80px!important;
+    height: 80px !important;
     border-radius: 8px 0 0 8px !important;
     -webkit-border-radius: 8px 0 0 8px !important;
     -moz-border-radius: 8px 0 0 8px !important;
@@ -110,11 +112,12 @@ Updated: 2023-04-11 18:33:37
     text-align: center !important;
 
 }
-/* input */
+
+/* elever les flèches de l'input number */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
-    margin: 0 ;
+    margin: 0;
 
 }
 
@@ -123,9 +126,12 @@ input[type=number] {
     appearance: none;
     /* Firefox */
 }
-/* bouton */
+
+/* boutons + et -  */
 .quantity-buttons {
-    margin-top:4px!important;}
+    margin-top: 4px !important;
+}
+
 .button-plus,
 .button-minus {
     margin: 0 !important;
@@ -134,7 +140,8 @@ input[type=number] {
     width: 45px !important;
     padding: 0 !important;
 }
-.button-plus{
+
+.button-plus {
     border-radius: 0 8px 0 0 !important;
     -webkit-border-radius: 0 8px 0 0 !important;
     -moz-border-radius: 0 8px 0 0 !important;
@@ -142,7 +149,8 @@ input[type=number] {
     -o-border-radius: 0 8px 0 0 !important;
     border-bottom: 1px solid #fff !important;
 }
-.button-minus{
+
+.button-minus {
     border-radius: 0 0 8px 0 !important;
     -webkit-border-radius: 0 0 8px 0 !important;
     -moz-border-radius: 0 0 8px 0 !important;
@@ -190,7 +198,7 @@ input[type=number] {
 
 /* TABLETTE ET ORDI PORTABLE */
 @media all and (min-width: 768px) and (max-width:1199px) {
-    
+
     .container-rencontre-1 {
         border-radius: 0 0 20% 20%;
         -webkit-border-radius: 0 0 20% 20%;
@@ -250,4 +258,3 @@ input[type=number] {
     }
 
 }
-
