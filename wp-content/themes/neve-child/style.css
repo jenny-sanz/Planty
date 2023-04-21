@@ -96,7 +96,7 @@ Updated: 2023-04-11 18:33:37
 .container-quantity {
     display: flex;
     height: 80px;
-    margin-left: 12px !important;
+
 }
 
 .container-quantity input[type="number"] {
@@ -191,7 +191,7 @@ input[type=number] {
 
 
 /* grands ecrans */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1440px) {}
 
 /*  ordi de bureau */
 @media (min-width: 1024px) and (max-width: 1199px) {}
