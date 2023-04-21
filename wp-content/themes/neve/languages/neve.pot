@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-04-06T07:38:50+00:00\n"
+"POT-Creation-Date: 2023-04-19T11:31:12+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: neve\n"
@@ -108,14 +108,14 @@ msgstr ""
 #: neve/globals/utilities.php:704
 #: neve/header-footer-grid/Core/Magic_Tags.php:637
 #: neve/inc/customizer/options/layout_blog.php:495
-#: neve/inc/customizer/options/layout_single_post.php:242
+#: neve/inc/customizer/options/layout_single_post.php:244
 #: neve/inc/views/partials/post_meta.php:234
 msgid "Author"
 msgstr ""
 
 #: neve/globals/utilities.php:705
 #: neve/inc/customizer/options/layout_blog.php:496
-#: neve/inc/customizer/options/layout_single_post.php:243
+#: neve/inc/customizer/options/layout_single_post.php:245
 #: neve/inc/customizer/options/layout_single_product.php:107
 #: neve/inc/customizer/options/upsells.php:224
 #: neve/inc/views/partials/post_meta.php:235
@@ -124,16 +124,16 @@ msgstr ""
 
 #: neve/globals/utilities.php:706
 #: neve/inc/customizer/options/layout_blog.php:497
-#: neve/inc/customizer/options/layout_single_post.php:244
+#: neve/inc/customizer/options/layout_single_post.php:246
 #: neve/inc/views/partials/post_meta.php:236
 msgid "Date"
 msgstr ""
 
 #: neve/globals/utilities.php:707
 #: neve/inc/customizer/options/layout_blog.php:498
-#: neve/inc/customizer/options/layout_single_post.php:152
-#: neve/inc/customizer/options/layout_single_post.php:160
-#: neve/inc/customizer/options/layout_single_post.php:245
+#: neve/inc/customizer/options/layout_single_post.php:154
+#: neve/inc/customizer/options/layout_single_post.php:162
+#: neve/inc/customizer/options/layout_single_post.php:247
 #: neve/inc/views/partials/post_meta.php:237
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Comments"
@@ -1945,13 +1945,13 @@ msgid "Infinite Scroll"
 msgstr ""
 
 #: neve/inc/customizer/options/layout_blog.php:381
-#: neve/inc/customizer/options/layout_single_post.php:148
+#: neve/inc/customizer/options/layout_single_post.php:150
 #: neve/assets/apps/customizer-controls/build/controls.js:1
 msgid "Thumbnail"
 msgstr ""
 
 #: neve/inc/customizer/options/layout_blog.php:382
-#: neve/inc/customizer/options/layout_single_post.php:147
+#: neve/inc/customizer/options/layout_single_post.php:149
 #: neve/assets/apps/customizer-controls/build/controls.js:1
 msgid "Title & Meta"
 msgstr ""
@@ -1973,7 +1973,7 @@ msgid "Thumbnail Shadow"
 msgstr ""
 
 #: neve/inc/customizer/options/layout_blog.php:461
-#: neve/inc/customizer/options/layout_single_post.php:70
+#: neve/inc/customizer/options/layout_single_post.php:72
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Post Meta"
 msgstr ""
@@ -2083,47 +2083,47 @@ msgstr ""
 msgid "edit"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:64
+#: neve/inc/customizer/options/layout_single_post.php:66
 msgid "Page Elements"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:76
+#: neve/inc/customizer/options/layout_single_post.php:78
 msgid "Comments Section"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:85
+#: neve/inc/customizer/options/layout_single_post.php:87
 msgid "Submit Form Section"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:130
+#: neve/inc/customizer/options/layout_single_post.php:132
 msgid "Display meta before title"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:149
-#: neve/inc/customizer/options/layout_single_post.php:157
+#: neve/inc/customizer/options/layout_single_post.php:151
+#: neve/inc/customizer/options/layout_single_post.php:159
 #: neve/inc/customizer/options/upsells.php:328
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Content"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:150
-#: neve/inc/customizer/options/layout_single_post.php:158
+#: neve/inc/customizer/options/layout_single_post.php:152
+#: neve/inc/customizer/options/layout_single_post.php:160
 #: neve/inc/customizer/options/upsells.php:278
 #: neve/inc/views/partials/post_meta.php:410
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Tags"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:151
-#: neve/inc/customizer/options/layout_single_post.php:159
+#: neve/inc/customizer/options/layout_single_post.php:153
+#: neve/inc/customizer/options/layout_single_post.php:161
 msgid "Post navigation"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:183
+#: neve/inc/customizer/options/layout_single_post.php:185
 msgid "Elements Order"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_single_post.php:201
+#: neve/inc/customizer/options/layout_single_post.php:203
 msgid "Spacing between elements"
 msgstr ""
 

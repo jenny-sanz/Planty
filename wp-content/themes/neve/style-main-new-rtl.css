@@ -1574,8 +1574,7 @@ body .layout-grid > .article-content-col,
   margin-top: 20px;
 }
 
-.nv-tags-list a,
-.tagcloud a {
+.nv-tags-list a {
   margin: 0 0 10px 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1588,14 +1587,8 @@ body .layout-grid > .article-content-col,
   display: inline-block;
 }
 
-.nv-tags-list span,
-.tagcloud span {
+.nv-tags-list span {
   margin-left: 10px;
-}
-
-.tagcloud {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .page .nv-post-cover {
